@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/18b0ae8c23.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg" id="nav">
+      <a class="navbar-brand" style="margin-left: 15px" href="#"
+        >life's good with a cup of tea</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      class="main d-flex align-items-center justify-content-center flex-column"
+    >
+      <div class="Title">
+        <h1 class="fw-bold poppins">Berpikir Komputasional</h1>
+      </div>
+      <div class="by">
+        <h4>By: 2nd group</h4>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row hero-1 mt-2">
+        <div
+          class="col-sm-5 col-lg-7 d-flex flex-column justify-content-center"
+        >
+          <h2 class="fw-bold poppins">
+            Mengenal Apa Itu Berpikir Komputasional
+          </h2>
+          <p
+            class="text-justify"
+            style="font-size: 20px; padding-right: 15px; padding-left: 30px"
+          >
+            Berpikir komputasional merupakan metode pemecahan masalah dengan
+            menerapkan teknologi ilmu komputer atau informatika. Berpikir
+            komputasional juga dapat diartikan sebagai konsep tentang cara
+            menemukan masalah yang ada di sekitar, dengan mengamati lalu
+            mengembangkan solusi pemecahan masalah.
+          </p>
+        </div>
+        <div
+          class="col-sm-7 col-lg-5 d-flex flex-column align-items-center justify-content-center pict-1"
+        ></div>
+      </div>
+      <div class="row hero-2 mt-2">
+        <div
+          class="col-sm-7 col-lg-5 d-flex flex-column align-items-center justify-content-center pict-2"
+        ></div>
+        <div
+          class="col-sm-5 col-lg-7 d-flex flex-column justify-content-center why"
+        >
+          <h2 class="fw-bold poppins">
+            Kenapa Kita Perlu Berpikir Komputasional?
+          </h2>
+          <p class="text-justify p" style="font-size: 20px">
+            Ketika kita menerapkan mindset Berpikir Komputasional, kita bisa
+            mendapatkan beberapa manfaat yaitu:
+          </p>
+          <ul class="ul" style="font-size: 20px">
+            <li>
+              Meningkatkan kemampuan pemecahan masalah yang sistematis dan
+              terstruktur.
+            </li>
+            <li>Membantu dalam merancang solusi yang efisien.</li>
+            <li>
+              Mempercepat proses belajar dan adaptasi terhadap perkembangan
+              teknologi.
+            </li>
+            <li>
+              Mendorong inovasi dan menemukan cara baru untuk mengatasi masalah.
+            </li>
+            <li>
+              Dapat diterapkan di berbagai bidang, termasuk pendidikan, bisnis,
+              dan kehidupan sehari-hari.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px">
+        <div
+          class="col-lg-12 d-flex flex-column align-items-center justify-content-center"
+        >
+          <h3 class="fw-bold poppins">Aspek-Aspek Berpikir Komputasional</h3>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-4 d-flex flex-column align-items-center">
+          <button
+            class="btn btn-info text-white mt-3 px-5 btn-active"
+            onclick="change('d')"
+            id="d"
+          >
+            >Dekomposisi<
+          </button>
+          <button
+            class="btn btn-info text-white mt-3 px-5 btn-active"
+            onclick="change('p')"
+            id="p"
+          >
+            Pengenalan Pola
+          </button>
+          <button
+            class="btn btn-info text-white mt-3 px-5 btn-active"
+            onclick="change('a')"
+            id="a"
+          >
+            Abstraksi
+          </button>
+          <button
+            class="btn btn-info text-white mt-3 px-5 btn-active"
+            onclick="change('g')"
+            id="g"
+          >
+            Algoritma
+          </button>
+          <button
+            class="btn btn-info text-white mt-3 px-5 btn-active"
+            onclick="change('n')"
+            id="n"
+          >
+            Analisis
+          </button>
+        </div>
+        <div
+          class="col-8 d-flex justify-content-center align-items-center text-center"
+        >
+          <h4 id="aspect" class="aspects">
+            "Memecah masalah kompleks menjadi bagian-bagian yang lebih kecil dan
+            lebih mudah dikelola"
+          </h4>
+        </div>
+      </div>
+      <div
+        class="row mt-5 hero-1 d-flex justify-content-center align-items-center"
+      >
+        <div class="col-12 text-center">
+          <h4>Kesimpulan</h4>
+          <p>
+            "Berpikir komputasional adalah suatu pendekatan berpikir logis dan
+            sistematis yang digunakan untuk menyelesaikan masalah dengan cara
+            memecahnya menjadi bagian-bagian kecil, mengenali pola, membuat
+            abstraksi, dan merancang solusi yang efisien (sering kali dengan
+            bantuan komputer). Kemampuan ini sangat penting di era digital
+            karena membantu seseorang berpikir lebih terstruktur, kreatif, dan
+            siap menghadapi tantangan teknologi."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 mt-5">
+            <p class="poppins">Life never felt the same after a cup of tea™</p>
+          </div>
+          <div class="col-2 mt-5 d-flex flex-column">
+            <h4>Navigation</h4>
+            <a class="stink mt-2" href="#">Home</a>
+            <a class="stink" href="#">About Us</a>
+          </div>
+          <div class="col-3 mt-5 d-flex flex-column">
+            <h4>Members</h4>
+            <p>
+              Tristan M.Pd <br />
+              Azizah Raihana <br />
+              Raditya Rizky <br />
+              Keysha Amira <br />
+              Ganes <br />
+              Nadira
+            </p>
+          </div>
+          <div class="col-3 mt-5 d-flex flex-column">
+            <h4>Get In Touch</h4>
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              @tristanmahardikaputra@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-map"></i> Jl. Raya Lenteng Agung No.38,
+              RT.1/RW.8, Lenteng Agung,<br />
+              Kec. Jagakarsa,<br />
+              Kota Jakarta Selatan,<br />
+              Daerah Khusus Ibukota Jakarta <br />
+              12610
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><hr style="border: 1px white solid" /></div>
+        </div>
+        <div class="row">
+          <div class="col-11">
+            <p style="font-size: 10px; color: rgba(255, 255, 255, 0.5)">
+              ©Life's good with a cup of tea
+            </p>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<style>
+  #nav {
+    position: fixed;
+    transition: 0.3s ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .actives {
+    background-color: white;
+  }
+
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/mont.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-1 {
+    height: 700px;
+  }
+
+  .hero-2 {
+    height: 1000px;
+  }
+
+  .pict-1 {
+    background-image: url(img/study-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .pict-2 {
+    background-image: url(img/study.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .btn-active {
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .footer {
+    height: 400px;
+    margin-top: 100px;
+    background: #020024;
+    color: white;
+  }
+
+  .stink {
+    color: white;
+    text-decoration: none;
+  }
+
+  .stink:hover {
+    text-decoration: underline;
+  }
+
+  .ul {
+    padding-left: 35px;
+  }
+
+  .p {
+    padding-left: 20px;
+  }
+
+  .why {
+    padding-left: 50px;
+  }
+
+  @media only screen and (max-width: 790px) {
+    .poppins {
+      text-align: center;
+    }
+
+    .text-justify {
+      text-align: justify;
+    }
+
+    .btn-active {
+      width: 200px;
+      font-size: 15px;
+    }
+
+    .aspect {
+      padding-left: 25px;
+    }
+
+    .footer {
+      height: 250px;
+    }
+
+    .footer h4 {
+      font-size: 10px;
+    }
+
+    .footer p {
+      font-size: 5px;
+    }
+
+    .footer .poppins {
+      font-size: 10px;
+    }
+
+    .footer a {
+      font-size: 5px;
+    }
+
+    .ul {
+      padding-left: 20px;
+    }
+
+    .p {
+      padding-left: 0px;
+    }
+
+    .why {
+      padding-left: 10px;
+    }
+
+    .aspects {
+      font-size: 15px;
+      padding-left: 35px;
+    }
+  }
+</style>
+
+<script>
+  const nav = document.getElementById("nav");
+  window.addEventListener("scroll", fixednav);
+  function fixednav() {
+    if (window.scrollY > nav.offsetHeight + 150) {
+      nav.classList.add("actives");
+    } else {
+      nav.classList.remove("actives");
+    }
+  }
+
+  const text = document.getElementById("aspect");
+  function change(per) {
+    let button = document.getElementById(per);
+    let total = document.getElementsByClassName("btn-info");
+    let choose = ["d", "p", "a", "g", "n"];
+    let name = [
+      "Dekomposisi",
+      "Pengenalan Pola",
+      "Abstraksi",
+      "Algoritma",
+      "Analisis",
+    ];
+    for (let i = 0; i < total.length; i++) {
+      total[i].innerHTML = name[i];
+    }
+    switch (per) {
+      case "d":
+        text.innerHTML =
+          '"Memecah masalah kompleks menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola"';
+        button.classList.add("btn-active");
+        document.getElementById("d").innerHTML = ">" + total[0].innerHTML + "<";
+        break;
+      case "p":
+        text.innerHTML =
+          '"Mengidentifikasi pola dan struktur dalam data atau masalah untuk menemukan solusi yang efektif"';
+        button.classList.add("btn-active");
+        document.getElementById("p").innerHTML = ">" + total[1].innerHTML + "<";
+        break;
+      case "a":
+        text.innerHTML =
+          '"Menghilangkan detail yang tidak perlu dan fokus pada aspek penting dari masalah untuk menyederhanakan solusi"';
+        button.classList.add("btn-active");
+        document.getElementById("a").innerHTML = ">" + total[2].innerHTML + "<";
+        break;
+      case "g":
+        text.innerHTML =
+          '"Mengembangkan langkah-langkah sistematis untuk menyelesaikan masalah atau mencapai tujuan"';
+        button.classList.add("btn-active");
+        document.getElementById("g").innerHTML = ">" + total[3].innerHTML + "<";
+        break;
+      case "n":
+        text.innerHTML =
+          '"Mengevaluasi solusi dan memperbaiki proses untuk meningkatkan efisiensi dan efektivitas"';
+        button.classList.add("btn-active");
+        document.getElementById("n").innerHTML = ">" + total[4].innerHTML + "<";
+        break;
+    }
+  }
+</script>
